@@ -98,3 +98,32 @@ header {
 .top-bar__email {
   gap: 0 10px;
 }
+
+.nav {
+  padding: 25px 0 18px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 30px;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.nav__order-call {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav__order-call a {
+  width: 161px;
+  background: linear-gradient(to right, #86b6e1, #5c9dd6);
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: 1px solid rgb(162, 216, 255);
+}
