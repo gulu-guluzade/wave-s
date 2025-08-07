@@ -1,27 +1,36 @@
 /* Fonts */
 @font-face {
-  font-family: "inter-r";
+  font-family: "inter-regular";
   src: url("../fonts/Inter/Inter_28pt-Regular.ttf");
 }
 
 @font-face {
-  font-family: "inter-m";
+  font-family: "inter-medium";
   src: url("../fonts/Inter/Inter_28pt-Medium.ttf");
 }
 
 @font-face {
-  font-family: "inter-sb";
+  font-family: "inter-semi-bold";
   src: url("../fonts/Inter/Inter_28pt-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: "inter-eb";
+  font-family: "inter-extra-bold";
   src: url("../fonts/Inter/Inter_28pt-ExtraBold.ttf");
 }
 
 :root {
+  /* fonts */
+  --inter-regular: inter-regular;
+  --inter-medium: inter-medium;
+  --inter-semi-bold: inter-semi-bold;
+  --inter-extra-bold: inter-extra-bold;
+
+  /* background colors */
   --background-color-darkblue: rgb(25, 86, 111);
   --background-color-white: rgb(255, 255, 255);
+
+  /* font colors */
   --font-color-white: rgb(255, 255, 255);
   --font-color-darkblue: rgb(1, 58, 81);
   --font-color-lightblue: rgb(12, 145, 252);
