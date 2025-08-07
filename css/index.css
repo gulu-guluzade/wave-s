@@ -1,3 +1,24 @@
+/* Fonts */
+@font-face {
+  font-family: "inter-r";
+  src: url("../fonts/Inter/Inter_28pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "inter-m";
+  src: url("../fonts/Inter/Inter_28pt-Medium.ttf");
+}
+
+@font-face {
+  font-family: "inter-sb";
+  src: url("../fonts/Inter/Inter_28pt-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: "inter-eb";
+  src: url("../fonts/Inter/Inter_28pt-ExtraBold.ttf");
+}
+
 /* Reset */
 * {
   margin: 0;
