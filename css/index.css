@@ -35,6 +35,9 @@
   --font-color-darkblue: rgb(1, 58, 81);
   --font-color-lightblue: rgb(12, 145, 252);
   --font-color-lightgrey: rgb(148, 172, 182);
+
+  /* line colors */
+  --line-color: rgb(92, 135, 153);
 }
 
 /* Reset */
@@ -45,4 +48,53 @@
   outline: none;
   text-decoration: none;
   list-style-type: none;
+}
+
+body {
+  font-family: var(--inter-regular);
+  line-height: 1.5;
+  color: var(--font-color-white);
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+header {
+  background-color: var(--background-color-darkblue);
+}
+
+.top-bar {
+  height: 50px;
+  border-bottom: 1px solid var(--line-color);
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
+
+.top-bar > div {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar__region {
+  flex-grow: 1;
+  gap: 0 6px;
+}
+
+.top-bar__schedule,
+.top-bar__phone,
+.top-bar__email {
+  gap: 0 10px;
 }
