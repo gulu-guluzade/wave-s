@@ -19,6 +19,15 @@
   src: url("../fonts/Inter/Inter_28pt-ExtraBold.ttf");
 }
 
+:root {
+  --background-color-darkblue: rgb(25, 86, 111);
+  --background-color-white: rgb(255, 255, 255);
+  --font-color-white: rgb(255, 255, 255);
+  --font-color-darkblue: rgb(1, 58, 81);
+  --font-color-lightblue: rgb(12, 145, 252);
+  --font-color-lightgrey: rgb(148, 172, 182);
+}
+
 /* Reset */
 * {
   margin: 0;
